@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0px;
+    background-color: cornsilk;
+}
+
+/* -----HEADER----- */
+.presentacion{
+    width: 100%;
+    margin: auto;
+    background-color: blueviolet;
+    /* background-image:url(https://img2.freepng.es/20180410/ste/kisspng-dog-walking-pet-sitting-cat-footprints-5acc3f7720ae92.5785149215233350311339.jpg); */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    color:black;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+.logo-inicio{
+    /* margin-left: 50px; */
+    /* text-align: center; */
+    left: 50%;
+
+    display: inline-block;
+    font-size: 60px;
+
+}
+/* .logo-inicio i{
+    
+} */
+.logo-signin{
+    position: absolute;
+    right:0px;
+    display: inline-block;
+}
+.logo-signin i{
+    font-size: 40px;
+}
+/* ---BARRA DE NAVEGACION--- */
+.navbar{
+    background-color: #c0198e;
+    margin-top: 0%;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+}
+.navbar .buscador{
+    margin-right: 0%;
+    padding-right: 0%;
+    padding-left: 15rem;
+}
+.navbar nav{
+    position: sticky;
+    top: 0%;
+    padding: 1rem;
+}
+.navbar form{
+    text-align: right;
+}
+.navbar nav ul{
+    margin:0%;
+    padding: 0%;
+}
+.navbar li {
+    display: inline-block;
+    margin: 0 1rem;
+    text-decoration-color: cornsilk;
+}
+button{
+    margin: auto;
+}
+.buscador img{
+    width: 1rem;
+    text-align: left;
+    float: right;
+}
+/* -----MAIN----- */
+main{
+    padding: 3rem;
+}
+.presentacion{
+    width: 100%;
+    margin: auto;
+}
+.presentacion h1{
+    font-family: 'Goblin One', cursive;
+    font-size: 65px;
+    color: gainsboro;
+    padding: 0px;
+    margin: 0px;
+}
+
+.seccion-lola{
+    display: inline-block;
+    margin: auto;
+    vertical-align: middle;
+}
+.seccion-tabla{
+    display: inline-block;
+    margin: auto;
+    vertical-align: middle;
+}
+.seccion-lista{
+    display: inline-block;
+    margin: auto;
+    vertical-align: middle;
+}
+/* -----FOOTER----- */
+footer{
+    margin: auto;
+    background-color: gray;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+footer .titulo-contacto{
+    margin: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+footer ul{
+    margin: auto;
+}
